@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pepsi</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="sec">
+      <!-- -----------------------Header-------------------------- -->
+      <header>
+        <a href="#"><img src="images/logo.png" class="logo" /></a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">What's New</a></li>
+          <li><a href="#">Newsletter</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </header>
+
+      <!-- ----------------------------Content----------------------------------- -->
+      <div class="content">
+        <div class="text-box">
+          <h2>That's What <br /><span>I like</span></h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id fuga
+            soluta officiis repellat tenetur doloremque consectetur perferendis
+            tempora non aut tempore asperiores nulla eum, eos totam magnam illum
+            at ullam?
+          </p>
+          <a href="#">View All Products</a>
+        </div>
+
+        <div class="image-box">
+          <img src="images/pepsi001.png" class="pepsi" />
+        </div>
+      </div>
+
+      <!-- -------------------------Thumbnail---------------------------------- -->
+      <ul class="thumbnail">
+        <li>
+          <img
+            src="images/pepsi001.png"
+            onclick="imageSlider('images/pepsi001.png');changeBackgroundColor('#0062be')"
+          />
+        </li>
+        <li>
+          <img
+            src="images/pepsi002.png"
+            onclick="imageSlider('images/pepsi002.png');changeBackgroundColor('#eb1933')"
+          />
+        </li>
+        <li>
+          <img
+            src="images/pepsi003.png"
+            onclick="imageSlider('images/pepsi003.png');changeBackgroundColor('#1e1e1e')"
+          />
+        </li>
+      </ul>
+
+      <!-- -------------------------Social Icons------------------------------- -->
+      <ul class="social-icons">
+        <li>
+          <a href="#"><img src="images/facebook.png" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/twitter.png" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/instagram.png" /></a>
+        </li>
+      </ul>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
